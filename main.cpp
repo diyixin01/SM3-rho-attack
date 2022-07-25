@@ -21,6 +21,10 @@ int SM3_RhoAttack()
         if(!memcmp(h1,h2,Collisionlen/8))
         {
             cout<<"find"<<Collisionlen<<"bit collision"<<endl;
+               cout<<"hash1:";
+            print_Hashvalue(h1,SM3_OUTLEN);
+            cout<<"hash2:";
+            print_Hashvalue(h2,SM3_OUTLEN);
             return 0;
         }
     }
