@@ -32,6 +32,12 @@ while(true)
     
     
         break
+        
+        
+        
+        
+        
+# PY运行结果
 
 当为8bit时
 
@@ -52,3 +58,9 @@ while(true)
 
 
 ![image](https://user-images.githubusercontent.com/75195549/179913847-d0e58925-c4b9-428d-adef-28dc7f8482b2.png)
+
+
+
+
+# C++运行结果
+
