@@ -1,5 +1,3 @@
-#include "../1_SM3_implementation/mysm3.h"
-#include "../1_SM3_implementation/mysm3.cpp"
 #include<time.h>
 #include<stdlib.h>
 #include<math.h>
@@ -22,11 +20,7 @@ int SM3_RhoAttack()
         SM3(h2,SM3_OUTLEN,h2);
         if(!memcmp(h1,h2,Collisionlen/8))
         {
-            cout<<"找到一组"<<Collisionlen<<"bit的碰撞，根据Floyd判环法，说明出现环"<<endl;
-            cout<<"hash1:";
-            print_Hashvalue(h1,SM3_OUTLEN);
-            cout<<"hash2:";
-            print_Hashvalue(h2,SM3_OUTLEN);
+            cout<<"find"<<Collisionlen<<"bit collision"<<endl;
             return 0;
         }
     }
@@ -40,7 +34,7 @@ int main()
     start = clock();  //开始时间
     SM3_RhoAttack();
     end = clock();   //结束时间
-    cout<<"花费时间：time = "<<double(end-start)/CLOCKS_PER_SEC<<"s"<<endl;  //输出时间（单位：ｓ）
+    cout<<"time = "<<double(end-start)/CLOCKS_PER_SEC<<"s"<<endl;  //输出时间（单位：ｓ）
     return 0;
 }
    
