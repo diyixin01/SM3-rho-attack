@@ -64,7 +64,7 @@ while(true)
 
 # C++运行结果
 
-![image](https://user-images.githubusercontent.com/75195549/180800831-43e75a55-c6df-4b0f-ae40-f910515b0e47.png)
+![image](https://user-images.githubusercontent.com/75195549/180800968-10396aca-6bf7-4593-ad79-4d2d214c9e7b.png)
 
 
 
