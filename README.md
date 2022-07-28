@@ -80,7 +80,6 @@ while(true)
 
 # C++运行结果
 
-![image](https://user-images.githubusercontent.com/75195549/180800968-10396aca-6bf7-4593-ad79-4d2d214c9e7b.png)
-
+![image](https://user-images.githubusercontent.com/75195549/181447438-e421ea81-5d2c-42c3-b993-63c75ab06e80.png)
 
 
