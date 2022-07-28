@@ -33,11 +33,26 @@ while(true)
     
         break
         
+      
+# 代码分析
+# SM3_RhoAttack
+首先对h1做hash，然后对h2做两次哈希，如果两次hash相遇，就成为了环
+
+
+![image](https://user-images.githubusercontent.com/75195549/181446080-18c42e16-df16-461c-b09a-7054c303a58e.png)
+
+
+# main
+
+![image](https://user-images.githubusercontent.com/75195549/181446458-1cbe6926-3dbc-4db5-8a38-b7a93a80ef38.png)
+
+
+一开始的随机数十分重要，随机的不好的话很影响碰撞的时间，随后设置时间变量进行计时。
+
         
         
         
-        
-# PY运行结果
+# Python运行结果
 
 当为8bit时
 
