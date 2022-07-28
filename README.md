@@ -13,27 +13,13 @@
 # 简要思路
 ```
 x=rand()
-
-
 h1 = SM3(x)
-
-
 h2 = SM3(h1)
-
-
 while(true)
-
-
-    h1=SM3(h1)
-    
-    
+    h1=SM3(h1)  
     h2=SM3(SM3(h2))
-    
-    
     if h1 == h2:
-    
-    
-        break
+         break
         
 ```      
 # 代码分析
