@@ -43,13 +43,14 @@ while(true)
 
 
 # main
-
-![image](https://user-images.githubusercontent.com/75195549/181446458-1cbe6926-3dbc-4db5-8a38-b7a93a80ef38.png)
-
-
 一开始的随机数十分重要，随机的不好的话很影响碰撞的时间，随后设置时间变量进行计时。
 
         
+        
+![image](https://user-images.githubusercontent.com/75195549/181446458-1cbe6926-3dbc-4db5-8a38-b7a93a80ef38.png)
+
+
+
         
         
 # Python运行结果
